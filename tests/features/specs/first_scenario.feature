@@ -6,5 +6,6 @@ Feature: Make a sum.
 - I want to make a sum
 
 Scenario: Make a sum
-When I sum 2 + 2
-Then The result has to be 4
+
+    When I sum 2 + 2
+    Then The result has to be 4
