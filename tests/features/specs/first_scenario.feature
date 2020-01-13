@@ -2,7 +2,7 @@
 
 Feature: Make a sum.
 
-- I as a user
+- I as an user
 - I want to make a sum
 
 Scenario: Make a sum
