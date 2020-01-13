@@ -1,7 +1,7 @@
-Quando("eu somo {int} + {int}") do |valor1, valor2|
-    @soma = valor1 + valor2
+When("I sum {int} + {int}") do |value1, value2|
+    @sum = value1 + value2
 end
   
-Então("o resultado tem que ser {int}") do |resultado|
-    expect(@soma).to eq resultado #verificando se a @soma é igual ao resultado
+Then("The result has to be {int}") do |result|
+    expect(@sum).to eq result #comparando @soma com resultado
 end

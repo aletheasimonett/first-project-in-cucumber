@@ -1,10 +1,10 @@
-#language: pt
+#language: en
 
-Funcionalidade: Fazer uma soma.
+Feature: Make a sum.
 
-- Eu como usuario
-- Eu quero fazer uma soma.
+- I as a user
+- I want to make a sum
 
-Cenario: Fazer uma soma
-Quando eu somo 2 + 2
-Então o resultado tem que ser 4
+Scenario: Make a sum
+When I sum 2 + 2
+Then The result has to be 4
