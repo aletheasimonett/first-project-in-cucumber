@@ -5,13 +5,13 @@ Feature: Work with Data Table
 
     Scenario: Cut orange
         Given that I have an oranges
-        |orange|10|
+        |oranges|10|
         When I cut 2 oranges
         Then I verify how many oranges left whole
 
     Scenario: Eat orange
-        Given that I have an oranges
+        Given that I have oranges
         |oranges|
         |   10  |
-        When I eat 2 oranges
-        Then I verify how many oranges left whole
+        When I eat 2
+        Then verify how many oranges left whole
