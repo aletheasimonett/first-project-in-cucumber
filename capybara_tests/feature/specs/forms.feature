@@ -4,5 +4,5 @@
 Feature: Interacting with the form
 
 Scenario: Register
-When I register
-Then verified if was register
+    When I register
+    Then verified if was register
